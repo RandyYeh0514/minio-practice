@@ -1,0 +1,26 @@
+{
+  "name": "minio-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node out/main/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/multipart": "^7.3.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "minio": "^7.0.32",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/minio": "^7.0.14",
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
